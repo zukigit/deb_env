@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  deb11:
+    image: zukidocker/oss:debian11_rpm_env
+    container_name: deb11_env
+    volumes:
+      - ./pkgbuild:/home/moon/pkgbuild
