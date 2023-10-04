@@ -6,4 +6,4 @@ services:
     image: zukidocker/oss:debian11_rpm_env
     container_name: deb11_env
     volumes:
-      - ./pkgbuild:/home/moon/pkgbuild
+      - ./deb:/home/moon/deb
